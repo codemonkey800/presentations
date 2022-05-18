@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+#app {
+  background: #111;
+  height: 100vh;
+}
+
+.reveal {
+  &-indexh-1 {
+    h1 {
+      color: #000 !important;
+    }
+  }
+}

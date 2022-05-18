@@ -1,0 +1,19 @@
+p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+h1,
+h2 {
+  color: red;
+}
+
+.red-background {
+  background: red;
+}
+
+#square {
+  width: 100px;
+  height: 100px;
+}
